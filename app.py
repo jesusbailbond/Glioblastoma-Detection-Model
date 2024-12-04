@@ -16,8 +16,8 @@ import rarfile
 import gdown
 
 
-
-banner_image = Image.open("streamlit_img\medecinsansfrontiers.png")
+banner_image_path = "streamlit_img/medecinsansfrontiers.png"
+banner_image = Image.open(banner_image_path)
 st.image(banner_image, use_container_width=True)
 
 st.markdown(" ")  # One blank line
