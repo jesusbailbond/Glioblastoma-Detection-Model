@@ -17,7 +17,7 @@ import gdown
 
 
 
-banner_image = Image.open(r"C:\Users\Jordan\Desktop\Data Science Folders\PROJECT\Deploying_Project\streamlit_img\medecinsansfrontiers.png")
+banner_image = Image.open("streamlit_img\medecinsansfrontiers.png")
 st.image(banner_image, use_container_width=True)
 
 st.markdown(" ")  # One blank line
@@ -146,7 +146,7 @@ elif page == "Model":
 
     # Generate PDF Report of the Model Result
         def generate_pdf(result, image_name):
-        # Create a temporary directory to store the image
+        # Create a ^porary directory to store the image
             temp_dir = tempfile.mkdtemp()
 
         # Save the uploaded image to a temporary file

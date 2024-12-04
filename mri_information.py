@@ -13,7 +13,7 @@ def mri_information():
     
     # Image with Caption
     st.image(
-        "C:/Users/Jordan/Desktop/Data Science Folders/PROJECT/Deploying_Project/streamlit_img/quick-fact.webp",  # Replace with your actual image path
+        "streamlit_img/quick-fact.webp",  # Replace with your actual image path
         caption="Illustration of MRI process",
         width=700  # Adjust to fit your layout
     )
@@ -57,7 +57,7 @@ def mri_information():
 
     st.title("What Does a Brain MRI Show?")
     st.image(
-        "C:/Users/Jordan/Desktop/Data Science Folders/PROJECT/Deploying_Project/streamlit_img/brain-MRI.jpg", 
+        "streamlit_img/brain-MRI.jpg", 
         caption="Illustration of MRI process",
         width=700 
     )
@@ -103,7 +103,7 @@ def mri_information():
                 """)
 
     st.image(
-        "C:/Users/Jordan/Desktop/Data Science Folders/PROJECT/Deploying_Project/streamlit_img/mri-image.jpg", 
+        "streamlit_img/mri-image.jpg", 
         caption="Illustration of MRI process",
         width=700 
     )
